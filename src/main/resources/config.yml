@@ -1,0 +1,5 @@
+# Debug messages (Only use this if you experience a bug)
+Debug: false
+
+# No permission message
+NoPermission: "&cYou don't have permission to execute this command."

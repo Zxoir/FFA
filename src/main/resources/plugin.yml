@@ -1,0 +1,19 @@
+name: FreeForAll
+version: ${project.version}
+main: me.zxoir.freeforall.FreeForAll
+authors: [Zxoir]
+description: A Free for all plugin with built-in statistics and cosmetics.
+commands:
+  createkit:
+    description: Create a new kit
+    usage: /createkit
+  deletekit:
+    description: Delete a kit
+    usage: /deletekit <kitName>
+  kits:
+    description: list of kits
+    usage: /kits
+permissions:
+  freeforall.admin:
+    default: op
+    description: Access to all commands including creating/deleting kits.
